@@ -23,31 +23,31 @@ function Home2() {
               <br />
               <br />I am familiar with the following programming languages. 
               <i>
-                <b className="purple"> C++, C#, python, java, HTML/CSS, Javascript, and powershell. </b>
+                <b className="purple"> C++, C#, Python, Java, HTML/CSS, Javascript, and powershell. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple"> Technologies and products</b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Automation. I love automating tasks to reduce the amount of time it takes to complete certain tasks
+                  Automation. I love automating tasks to reduce the amount of time it takes to complete certain tasks. Automation is King.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">python</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  other programming languages.
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> C#, C++, Javascript, and more.</b>
               </i>
             </p>
     

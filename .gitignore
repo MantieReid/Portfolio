@@ -27,3 +27,7 @@ yarn-error.log*
 
 Server/node_modules
 Server/config.js
+*.vsidx
+.vs/slnx.sqlite
+.vs/ProjectSettings.json
+.vs/Portfolio/FileContentIndex/read.lock
