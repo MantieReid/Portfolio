@@ -45,7 +45,7 @@ function Home2() {
                   other programming languages.
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; Such as
               <i>
                 <b className="purple"> C#, C++, Javascript, and more.</b>
               </i>
