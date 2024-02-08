@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
+//fix this. Add your Projects and remove the other ones. Post your Own here. 
 function Projects() {
   return (
     <Container fluid className="project-section">
