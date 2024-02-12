@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Early on, I fell for the code. It wasn't just fun, it was a creative outlet, empowering me to build and express like never before.
+              Early on, I developed a strong passion for programming. I love programming because it allows me to create other programs that people will use to make their lives easier.
               <br />
               <br />I am familiar with the following programming languages. 
               <i>
@@ -29,8 +29,8 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple"> Technologies and products</b> and
-                also in areas related to{" "}
+                <b className="purple"> Technologies and products.</b> I
+                  also have Interest in areas related to{" "}
                 <b className="purple">
                   Automation. I love automating tasks to reduce the amount of time it takes to complete certain tasks. Automation is King.
                 </b>
