@@ -4,6 +4,7 @@ import { Col, Row } from "react-bootstrap";
 
 //import { DiDocker } from "react-icons/di";
 import { FaDocker } from "react-icons/fa6";
+import { FaUbuntu } from "react-icons/fa";
 
 
 import {
@@ -17,7 +18,9 @@ import {
   SiGithub,
   SiIntellijidea,
   SiVisualstudio,
-  SiPycharm
+  SiPycharm,
+  SiKalilinux,
+ 
 
   
 
@@ -29,6 +32,23 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         < SiWindows10/>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <FaUbuntu/>
+      </Col>
+
+      
+    
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKalilinux/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMacos/>
+      </Col>
+
+
+
+
 
       <Col xs={4} md={2} className="tech-icons">
       <FaDocker/>

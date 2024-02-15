@@ -8,10 +8,20 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import calprogram from "../../Assets/Projects/Cal.gif";
+import WeightConProgram from "../../Assets/Projects/WeightConGif.gif";
+import Rockpaperscissorsprogram from "../../Assets/Projects/Rockpaperscissors.gif";
+import onehundreddaysofcodeprogram from "../../Assets/Projects/100daysofcodeGif.gif";
+import onehundreddaysofcoderound2 from "../../Assets/Projects/100daysround2.gif";
+import WordGuessingprogram from "../../Assets/Projects/WordGuessingGame.gif";
+import ChatApplicationprogramGif from "../../Assets/Projects/ChatApplicationgif.gif";
+import KeyLoggerProgram from "../../Assets/Projects/KeyLoggerThing.gif";
+
 
 //fix this. Add your Projects and remove the other ones. Post your Own here. 
 function Projects() {
   return (
+    
     <Container fluid className="project-section">
       <Particle />
       <Container>
@@ -19,75 +29,101 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are some of my projects that I have created and worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={calprogram}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Calculator"
+              description="A calculator that was made using java. It does basic math. Math such as division, subtraction and addition."
+              ghLink="https://github.com/MantieReid/calculator"
+              demoLink="https://github.com/MantieReid/calculator/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={WeightConProgram}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Weight Converter"
+              description="A weight converter that was made using Javascript and Bootstrap. Converts weight into other forms of weight"
+              ghLink="https://github.com/MantieReid/Weight-Converter"
+              demoLink="https://codepen.io/mantiereid/full/mZVoqo"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Rockpaperscissorsprogram}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Rock paper Scissors"
+              description="A small game of rock paper scissors I made using C#"
+              ghLink="https://mantiereidii.com/portfolio/rock-paper-scissors"
+              demoLink="https://github.com/MantieReid/Rock-paper-scissors/releases"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={onehundreddaysofcodeprogram}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="100 Days Of Code challenge"
+              description="I completed the 100 days of coding challenge. Which is to code for one hour for the next 100 days. During this timeframe I made several programs. Programs such as a chat program, weight converter, word guessing game and more."
+              ghLink="https://github.com/MantieReid/100-days-of-code"
+              demoLink="https://github.com/MantieReid/100-days-of-code"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={onehundreddaysofcoderound2}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="100 Days of code challenge round 2"
+              description="Second round of 100 days of code. I completed over 100 leetcode probelms during this round."
+              ghLink="https://github.com/MantieReid/100-days-of-code-round-2"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={WordGuessingprogram}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Word Guessing Game"
+              description="A Word Guessing Game, I made using C++"
+              ghLink="https://github.com/MantieReid/word-guessing-game"
+              demoLink="https://github.com/MantieReid/word-guessing-game/releases/tag/1.0.3"   
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ChatApplicationprogramGif}
+              isBlog={false}
+              title="Chat Application"
+              description="A chat application I made using C#"
+              ghLink="https://github.com/MantieReid/Chat-application"
+              
+              
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={KeyLoggerProgram}
+              isBlog={false}
+              title="Key Logger"
+              description="A key logger that was made using Python. This  helps me to understand how hackers make them."
+              ghLink="https://github.com/MantieReid/keylogger"
+              
+              
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
