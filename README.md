@@ -3,7 +3,7 @@
   <a href="https://portfolio-l9299i6ax-mantiereids-projects.vercel.app/" target="_blank">My portfolio</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="Images/NewReadMeImg.PNG/>
+  <img alt="Demo" src="Images/NewReadMeImg.PNG"/>
 </div>
 
 <br/>
