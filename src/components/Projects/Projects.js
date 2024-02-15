@@ -16,6 +16,9 @@ import onehundreddaysofcoderound2 from "../../Assets/Projects/100daysround2.gif"
 import WordGuessingprogram from "../../Assets/Projects/WordGuessingGame.gif";
 import ChatApplicationprogramGif from "../../Assets/Projects/ChatApplicationgif.gif";
 import KeyLoggerProgram from "../../Assets/Projects/KeyLoggerThing.gif";
+import MetroCardReaderProgram from "../../Assets/Projects/MetroCardReaderVideo.gif"; 
+import TwoDshootergameTopDownGame from "../../Assets/Projects/2DShooterGameTopDownGif.gif"; 
+
 
 
 //fix this. Add your Projects and remove the other ones. Post your Own here. 
@@ -123,6 +126,34 @@ function Projects() {
               
             />
           </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MetroCardReaderProgram}
+              isBlog={false}
+              title="MTA Metro Card reader"
+              description="A program that reads the amount that is on a MTA NYC metro card. A better way to see how much is on the card than having to run up to train station to see how much you have on the card."
+              ghLink="https://github.com/MantieReid/MTA-metrocard-reader"
+              
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TwoDshootergameTopDownGame}
+              isBlog={false}
+              title="2D shooter Top Down Game"
+              description="A video game that was made in unity. It was made just for learning purposes and demonstration purposes. It is just a prototype."
+              ghLink="https://github.com/MantieReid/2D-Top-Down-Shooter-Game"
+              
+              
+            />
+          </Col>
+
+
+          
 
         </Row>
       </Container>
