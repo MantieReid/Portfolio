@@ -16,19 +16,41 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Analytics } from '@vercel/analytics/react';
 
-function App() {
+
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
+}
+
+
+
+function App({ Component, pageProps }) {
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-
+   
+   <>
+    <Component {...pageProps} />
+    <Analytics />
+  </>
     return () => clearTimeout(timer);
+    
+     
+    
   }, []);
 
   return (
+    
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -48,3 +70,5 @@ function App() {
 }
 
 export default App;
+
+
