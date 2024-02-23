@@ -18,6 +18,8 @@ import ChatApplicationprogramGif from "../../Assets/Projects/ChatApplicationgif.
 import KeyLoggerProgram from "../../Assets/Projects/KeyLoggerThing.gif";
 import MetroCardReaderProgram from "../../Assets/Projects/MetroCardReaderVideo.gif"; 
 import TwoDshootergameTopDownGame from "../../Assets/Projects/2DShooterGameTopDownGif.gif"; 
+import ThePortfoliowebsite from "../../Assets/Portflio website Screenshot.PNG"; 
+
 
 
 
@@ -153,6 +155,19 @@ function Projects() {
           </Col>
 
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ThePortfoliowebsite}
+              isBlog={false}
+              title="Portfolio Website"
+              description="A portfolio website that I made using the template from soumyajit. It is the website you are looking at right now. It was fun making this website. "
+              ghLink="https://github.com/MantieReid/Portfolio"
+              demoLink="https://portfolio.mantieprojects.com/"
+              
+              
+            />
+          </Col>
+          https://portfolio.mantieprojects.com/project
           
 
         </Row>
