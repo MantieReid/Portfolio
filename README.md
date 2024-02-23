@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://portfolio-l9299i6ax-mantiereids-projects.vercel.app/" target="_blank">My portfolio</a>
+  <a href="https://portfolio.mantieprojects.com/" target="_blank">My portfolio</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="Images/NewReadMeImg.PNG"/>
